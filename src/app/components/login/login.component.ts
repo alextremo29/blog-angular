@@ -50,6 +50,7 @@ export class LoginComponent implements OnInit {
 			  	);
   			} else{
   				this.status = 'error';	
+          console.log(response)
   			}
   		},
   		error =>{
